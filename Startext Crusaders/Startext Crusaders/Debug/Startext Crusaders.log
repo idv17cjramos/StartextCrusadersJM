@@ -1,0 +1,7 @@
+﻿  Source.cpp
+c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\source.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\source.cpp(13): error C2512: 'Mapa': no appropriate default constructor available
+  c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\mapa.h(7): note: see declaration of 'Mapa'
+  ManejadorDeComandos.cpp
+c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\manejadordecomandos.cpp(25): error C3867: 'Mapa::printMapa': non-standard syntax; use '&' to create a pointer to member
+  Generating Code...
