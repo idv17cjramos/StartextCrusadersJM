@@ -11,7 +11,7 @@ public://public para que pueda uarlo
 	std::string nombreProta;
 
 	void usarObjeto(std::string Nombre);
-	void anadirObjeto(Objeto *);
+	void anadirObjeto(Objeto * objeto /*Viejo, porfa, acuerdate, siempre que crees una variable o un parametro ponle nombre.*/);
 
 	void guardarJugador();
 	void cargarJugador();

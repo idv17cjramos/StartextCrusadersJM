@@ -1,7 +1,12 @@
 ﻿  Source.cpp
-c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\source.cpp(10): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\source.cpp(13): error C2512: 'Mapa': no appropriate default constructor available
-  c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\mapa.h(7): note: see declaration of 'Mapa'
+c:\users\komo97\documents\github\rpgtest\startextcrusadersjm\startext crusaders\startext crusaders\jugador.h(3): fatal error C1083: Cannot open include file: 'Objeto.h': No such file or directory
+  RPG.cpp
+  Mapa.cpp
+c:\users\komo97\documents\github\rpgtest\startextcrusadersjm\startext crusaders\startext crusaders\cuarto.h(4): fatal error C1083: Cannot open include file: 'Objeto.h': No such file or directory
   ManejadorDeComandos.cpp
-c:\users\royra\documents\visual studio 2017\projects\startext crusaders\startext crusaders\manejadordecomandos.cpp(25): error C3867: 'Mapa::printMapa': non-standard syntax; use '&' to create a pointer to member
+c:\users\komo97\documents\github\rpgtest\startextcrusadersjm\startext crusaders\startext crusaders\cuarto.h(4): fatal error C1083: Cannot open include file: 'Objeto.h': No such file or directory
+  Jugador.cpp
+c:\users\komo97\documents\github\rpgtest\startextcrusadersjm\startext crusaders\startext crusaders\jugador.h(3): fatal error C1083: Cannot open include file: 'Objeto.h': No such file or directory
+  Cuarto.cpp
+c:\users\komo97\documents\github\rpgtest\startextcrusadersjm\startext crusaders\startext crusaders\cuarto.h(4): fatal error C1083: Cannot open include file: 'Objeto.h': No such file or directory
   Generating Code...

@@ -32,3 +32,11 @@ cuarto::cuarto(int X, int Y) : cuartoX(X) , cuartoY(Y)
 cuarto::~cuarto()
 {
 }
+
+std::istream & operator>>(std::istream & is, contenidoHabitacion & tipo)
+{
+	int valor;
+	is >> valor;
+	tipo = (contenidoHabitacion)valor;
+	return is;
+}

@@ -1,6 +1,8 @@
 #pragma once
 #include <string>
+#include <random>
 #include <fstream>
+#include <cstdlib>
 #include "Objeto.h"
 #include "Enemigo.h"
 
@@ -29,10 +31,5 @@ public:
 	~cuarto();
 };
 
-std::istream & operator >> (std::istream& is, contenidoHabitacion & tipo)
-{
-	int valor;
-	is >> valor;
-	tipo = (contenidoHabitacion)valor;
-	return is;
-}
+std::istream & operator >> (std::istream& is, contenidoHabitacion & tipo);
+//Pase la implementacion de esta funcion a el .cpp, tenerlas en el .h a veces pachequea a los compiladores.

@@ -4,9 +4,9 @@ void Jugador::usarObjeto(std::string Nombre)
 {
 }
 
-void Jugador::anadirObjeto(Objeto *)
+void Jugador::anadirObjeto(Objeto /*tipo de datos*/ * objeto /*nombre del parametro/variable*/)
 {
-	inventario.push_back(Objeto);
+	inventario.push_back(objeto /*Si no les pones nombre, pasas el tipo de datos a las funciones que usas y por eso no te salen las cosas muchas veces :C*/);
 }
 
 void Jugador::guardarJugador()

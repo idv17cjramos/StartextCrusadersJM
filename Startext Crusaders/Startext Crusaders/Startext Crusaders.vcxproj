@@ -22,7 +22,7 @@
     <VCProjectVersion>15.0</VCProjectVersion>
     <ProjectGuid>{0ABFAA39-B9E9-4993-A16F-4139F1937403}</ProjectGuid>
     <RootNamespace>StartextCrusaders</RootNamespace>
-    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformVersion>10.0.15063.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -112,17 +112,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Cuarto.cpp" />
+    <ClCompile Include="Enemigo.cpp" />
     <ClCompile Include="Jugador.cpp" />
     <ClCompile Include="ManejadorDeComandos.cpp" />
     <ClCompile Include="Mapa.cpp" />
+    <ClCompile Include="Objeto.cpp" />
     <ClCompile Include="RPG.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Cuarto.h" />
+    <ClInclude Include="Enemigo.h" />
     <ClInclude Include="Jugador.h" />
     <ClInclude Include="ManejadorDeComandos.h" />
     <ClInclude Include="Mapa.h" />
+    <ClInclude Include="Objeto.h" />
     <ClInclude Include="RPG.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
